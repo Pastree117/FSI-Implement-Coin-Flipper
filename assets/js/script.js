@@ -1,12 +1,22 @@
 // TODO: Declare any global variables we need
+let scoreboardHeads = document.querySelector('#heads');
+let scoreboardHeadsPercent = document.querySelector('#heads-percent');
+let scoreboardTails = document.querySelector('#tails');
+let scoreboardTailsPercent = document.querySelector('#tails-percent');
+let coin = document.querySelector('#penny-img');
+let coinFlip = document.querySelector('#flip-btn');
+let clear = document.querySelector('#clear-btn');
+let result = document.querySelector('#status-img');
 
-
+            
 document.addEventListener('DOMContentLoaded', function () {
     // This is just a sanity check to make sure your JavaScript script is getting loaded
     // You can remove it once you see it in your browser console in the developer tools
-    console.log('Hi')
+    console.log('Hi')})
 
-    // TODO: Add event listener and handler for flip and clear buttons
+    // TODO: Add event listener and handler for flip and clear buttons 
+coinflip.add
+
 
     // Flip Button Click Handler
         // TODO: Determine flip outcome
@@ -24,4 +34,3 @@ document.addEventListener('DOMContentLoaded', function () {
         // TODO: Reset global variables to 0
         // TODO: Update the scoreboard (same logic as in flip button click handler)
 
-})

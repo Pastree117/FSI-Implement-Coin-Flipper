@@ -20,7 +20,10 @@ h1 {
     margin: 0;
     padding: 25px;
 }
-
+.ButtonBG {
+  Border-style: solid;
+  background: linear-gradient(to bottom left, orange, white);
+}
 /* Controls and Message Styles */
 .controls {
     padding: 20px;
@@ -33,7 +36,13 @@ h1 {
     font-weight: bold;
 }
 
-button {
+buttonFlip {
+    font-size: 1.5em;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+buttonReset {
     font-size: 1.5em;
     margin-right: 10px;
     border-radius: 10px;
